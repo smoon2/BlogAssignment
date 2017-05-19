@@ -11,11 +11,11 @@
         </head>
         
         <body>
-            <h1>Hi, {{ @username }}</h1>
+            <h1>Hi, <?= $username ?></h1>
             <div class="container-fluid">
                 <div class="col-sm-3 sidenav">
                     <h4>Blog Site</h4>
-                    <h4>{{ @username }}</h4>
+                    <h4><?= $username ?></h4>
                     <li><a href="">Home</a></li>
                     <li><a href="">Become a Blogger</a></li>
                     <li><a href="">About Us</a></li>
