@@ -1,25 +1,23 @@
 <?php
 class BlogDB{
     
-    
-     CREATE TABLE BlogPosts (
-    bloggerId INT(10),
-    date DATE;
-    title VARCHAR(30),
-    entry VARCHAR(500)
+    /*
+    CREATE TABLE BlogPosts (
+       bloggerId INT(10),
+       date DATE;
+       title VARCHAR(30),
+       entry VARCHAR(500)
     
     );
 
- CREATE TABLE bloggers (
-    bloggerId INT(10),
-    username VARCHAR(20),
-    email VARCHAR(50),
-    portrait VARCHAR(200),
-    bio VARCHAR(50)
+    CREATE TABLE Bloggers (
+       bloggerId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+       username VARCHAR(20),
+       email VARCHAR(50),
+       portrait VARCHAR(255) DEFAULT 'https://d30womf5coomej.cloudfront.net/ua/defaultuser.png'
+       bio VARCHAR(50)
     );
-    
-    
-    
+    */
     
     private $_pdo;
         
@@ -75,29 +73,48 @@ class BlogDB{
 
 
 /*
-         * This function gets all member info
+         * This function gets all the blog posts ordered by date and puts it into an array!
          */
-        function allMembers()
+        function allBlogPosts()
         {
-            $select = 'SELECT id, fname, lname, age, gender, phone, email, state, seeking, bio, premium, interests FROM Members ORDER BY lname';
+            $select = 'SELECT bloggerId, date, title, entry FROM BlogPosts ORDER BY date';
             $results = $this->_pdo->query($select);
-            
              
             $resultsArray = array();
              
             //map each pet id to a row of data for that pet
             while ($row = $results->fetch(PDO::FETCH_ASSOC)) {
-                $resultsArray[$row['id']] = $row;
+                $resultsArray[$row['bloggerId']] = $row;
             }     
             return $resultsArray;
         }
         
         /**
+         * This function retrieves all the bloggers from the database and returns an array that stores blogger. 
+         */
+        function allBloggers()
+        {
+            $select = 'SELECT bloggerId, username, email, portrait, bio FROM Bloggers';
+            $results = $this->_pdo->query($select);
+             
+            $resultsArray = array();
+             
+            //map each pet id to a row of data for that pet
+            while ($row = $results->fetch(PDO::FETCH_ASSOC)) {
+                $resultsArray[$row['bloggerId']] = $row;
+            }     
+            return $resultsArray;
+        }
+        
+        
+        
+        
+        /**
          * This function gets the info by id. 
          */
-        function memberById($id)
+        function bloggerById($bloggerId)
         {
-            $select = 'SELECT id, fname, lname, age, gender, phone, email, state, seeking, bio, premium, interests FROM Members WHERE id=:id';
+            $select = 'SELECT bloggerId, username, email, portrait, bio FROM Bloggers WHERE bloggerId=:bloggerId';
     
             $statement = $this->_pdo->prepare($select);
             $statement->bindValue(':id', $id, PDO::PARAM_INT);

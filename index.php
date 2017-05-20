@@ -6,12 +6,42 @@
     
     //Create an instance of the Base class
     $f3 = Base::instance();
+    $blogDB = new BlogDB();
     
     //Default route
     $f3->route('GET /', function($f3) {
-        $f3->set('username', 'Sonie');
         
         
+        //$blogs = $blogDB->allBlogPosts();
+        //$blogPost = new BlogPost(bloggerId, date, title, entry);
+        //$f3->set("blogs", $blogs);
+        //
+        $blogsArray = array();
+        $blogPosts = $GLOBALS['blogDB']->allBlogPosts();
+        foreach($blogPosts as $blogPost){
+            //print_r($blogPost);
+            //print_r($blogPost[entry]);
+            $blogPostObject = new BlogPost($blogPost[bloggerId],$blogPost[date], $blogPost[title], $blogPost[entry]);
+            $blogsArray[] = $blogPostObject;
+            
+             
+            //$blogPost1 = new BlogPost($blogPost[1], $blogPost[2], $blogPost[3], $blogPost[4]);
+            //print_r($blogPost1);
+        }
+    
+        $f3->set('blogsArray', $blogsArray);
+        
+        
+		$bloggers = $GLOBALS['blogDB']->allBloggers();
+		//Assign the members to an f3 variable
+		$f3->set('blogPosts', $blogPosts);
+        $f3->set('bloggers', $bloggers);
+        
+    
+    
+        
+        //print_r($bloggers);
+        //print_r($blogPosts);        
         //$f3->set('username', 'jshmo');
         //$f3->set('password', sha1('Password01'));
         //$f3->set('title', 'Working with Templates');

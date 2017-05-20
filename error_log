@@ -1,0 +1,204 @@
+[18-May-2017 19:51:13 America/Chicago] PHP Fatal error:  Class 'BlogPost' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 12
+[18-May-2017 19:51:13 America/Chicago] Fatal error: Class 'BlogPost' not found
+[18-May-2017 19:51:13 America/Chicago] [328/BlogAssignment/index.php:12] 
+[18-May-2017 19:53:38 America/Chicago] PHP Fatal error:  Class 'BlogPost' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 12
+[18-May-2017 19:53:38 America/Chicago] Fatal error: Class 'BlogPost' not found
+[18-May-2017 19:53:38 America/Chicago] [328/BlogAssignment/index.php:12] 
+[18-May-2017 19:55:21 America/Chicago] PHP Fatal error:  Class 'blogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:55:21 America/Chicago] Fatal error: Class 'blogDB' not found
+[18-May-2017 19:55:21 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:55:23 America/Chicago] PHP Fatal error:  Class 'blogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:55:23 America/Chicago] Fatal error: Class 'blogDB' not found
+[18-May-2017 19:55:23 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:56:33 America/Chicago] PHP Fatal error:  Class 'blogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:56:33 America/Chicago] Fatal error: Class 'blogDB' not found
+[18-May-2017 19:56:33 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:56:59 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:56:59 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 19:56:59 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:57:01 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:57:01 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 19:57:01 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:57:12 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:57:12 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 19:57:12 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:58:25 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:58:25 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 19:58:25 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 19:58:56 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 19:58:56 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 19:58:56 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:00:35 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:00:35 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:00:35 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:01:11 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:01:11 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:01:11 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:01:12 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:01:12 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:01:12 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:01:28 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:01:28 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:01:28 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:01:30 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:01:30 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:01:30 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:02:36 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:02:36 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:02:36 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:02:38 America/Chicago] PHP Fatal error:  Class 'BlogDB' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 9
+[18-May-2017 20:02:38 America/Chicago] Fatal error: Class 'BlogDB' not found
+[18-May-2017 20:02:38 America/Chicago] [328/BlogAssignment/index.php:9] 
+[18-May-2017 20:06:04 America/Chicago] Missing argument 1 for BlogPost::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 13 and defined
+[18-May-2017 20:06:04 America/Chicago] [328/BlogAssignment/classes/blogPost.php:8] Base->{closure}()
+[18-May-2017 20:06:04 America/Chicago] [328/BlogAssignment/index.php:13] BlogPost->__construct()
+[18-May-2017 20:06:04 America/Chicago] [328/BlogAssignment/index.php:49] Base->run()
+[18-May-2017 20:11:48 America/Chicago] Missing argument 1 for BlogPost::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 13 and defined
+[18-May-2017 20:11:48 America/Chicago] [328/BlogAssignment/classes/blogPost.php:8] Base->{closure}()
+[18-May-2017 20:11:48 America/Chicago] [328/BlogAssignment/index.php:13] BlogPost->__construct()
+[18-May-2017 20:11:48 America/Chicago] [328/BlogAssignment/index.php:49] Base->run()
+[18-May-2017 20:13:33 America/Chicago] Missing argument 1 for BlogPost::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 13 and defined
+[18-May-2017 20:13:33 America/Chicago] [328/BlogAssignment/classes/blogPost.php:8] Base->{closure}()
+[18-May-2017 20:13:33 America/Chicago] [328/BlogAssignment/index.php:13] BlogPost->__construct()
+[18-May-2017 20:13:33 America/Chicago] [328/BlogAssignment/index.php:49] Base->run()
+[18-May-2017 20:19:42 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:19:42 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:19:42 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:20:05 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:20:05 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:20:05 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:20:06 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:20:06 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:20:06 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:20:07 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:20:07 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:20:07 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:20:25 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:20:25 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:20:25 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:53:02 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 15
+[18-May-2017 20:53:02 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:53:02 America/Chicago] [328/BlogAssignment/index.php:15] 
+[18-May-2017 20:56:35 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 20
+[18-May-2017 20:56:35 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:56:35 America/Chicago] [328/BlogAssignment/index.php:20] 
+[18-May-2017 20:56:37 America/Chicago] PHP Fatal error:  Call to a member function allBlogPosts() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 20
+[18-May-2017 20:56:37 America/Chicago] Fatal error: Call to a member function allBlogPosts() on a non-object
+[18-May-2017 20:56:37 America/Chicago] [328/BlogAssignment/index.php:20] 
+[18-May-2017 21:05:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/smoon/public_html/328/BlogAssignment/index.php on line 50
+[19-May-2017 00:55:11 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 26
+[19-May-2017 00:55:11 America/Chicago] Fatal error: Cannot use [] for reading
+[19-May-2017 00:55:11 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:26] 
+[19-May-2017 08:49:07 America/Chicago] PHP Parse error:  syntax error, unexpected '@' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 26
+[19-May-2017 08:49:07 America/Chicago] Fatal error: syntax error, unexpected '@'
+[19-May-2017 08:49:07 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:26] 
+[19-May-2017 08:49:31 America/Chicago] PHP Parse error:  syntax error, unexpected '@' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 26
+[19-May-2017 08:49:31 America/Chicago] Fatal error: syntax error, unexpected '@'
+[19-May-2017 08:49:31 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:26] 
+[19-May-2017 10:12:53 America/Chicago] HTTP 404 (GET /---------%20YOUR%20IMAGE%20URL%20----------)
+[19-May-2017 10:12:53 America/Chicago] [328/BlogAssignment/index.php:56] Base->run()
+[19-May-2017 10:13:14 America/Chicago] HTTP 404 (GET /---------%20YOUR%20IMAGE%20URL%20----------)
+[19-May-2017 10:13:14 America/Chicago] [328/BlogAssignment/index.php:56] Base->run()
+[19-May-2017 10:13:23 America/Chicago] HTTP 404 (GET /---------%20YOUR%20IMAGE%20URL%20----------)
+[19-May-2017 10:13:23 America/Chicago] [328/BlogAssignment/index.php:56] Base->run()
+[19-May-2017 11:06:51 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:101]
+[19-May-2017 11:06:51 America/Chicago] [328/BlogAssignment/model/blogdb.php:101] PDOStatement->execute()
+[19-May-2017 11:06:51 America/Chicago] [328/BlogAssignment/index.php:21] BlogDB->bloggerById()
+[19-May-2017 11:06:51 America/Chicago] [328/BlogAssignment/index.php:58] Base->run()
+[19-May-2017 11:08:59 America/Chicago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date' in 'order clause' [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:95]
+[19-May-2017 11:08:59 America/Chicago] [328/BlogAssignment/model/blogdb.php:95] PDO->query()
+[19-May-2017 11:08:59 America/Chicago] [328/BlogAssignment/index.php:21] BlogDB->allBloggers()
+[19-May-2017 11:08:59 America/Chicago] [328/BlogAssignment/index.php:58] Base->run()
+[19-May-2017 11:09:15 America/Chicago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date' in 'order clause' [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:95]
+[19-May-2017 11:09:15 America/Chicago] [328/BlogAssignment/model/blogdb.php:95] PDO->query()
+[19-May-2017 11:09:15 America/Chicago] [328/BlogAssignment/index.php:21] BlogDB->allBloggers()
+[19-May-2017 11:09:15 America/Chicago] [328/BlogAssignment/index.php:58] Base->run()
+[19-May-2017 11:37:14 America/Chicago] Missing argument 1 for BlogPost::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 23 and defined
+[19-May-2017 11:37:14 America/Chicago] [328/BlogAssignment/classes/blogPost.php:8] Base->{closure}()
+[19-May-2017 11:37:14 America/Chicago] [328/BlogAssignment/index.php:23] BlogPost->__construct()
+[19-May-2017 11:37:14 America/Chicago] [328/BlogAssignment/index.php:69] Base->run()
+[19-May-2017 11:48:14 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 11:48:14 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:57] Base->{closure}()
+[19-May-2017 11:48:14 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 11:48:14 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 11:49:03 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 11:49:03 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:57] Base->{closure}()
+[19-May-2017 11:49:03 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 11:49:03 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 11:49:09 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 11:49:09 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:57] Base->{closure}()
+[19-May-2017 11:49:09 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 11:49:09 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 11:49:24 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/smoon/public_html/328/BlogAssignment/index.php on line 32
+[19-May-2017 11:49:24 America/Chicago] Fatal error: Cannot use [] for reading
+[19-May-2017 11:49:24 America/Chicago] [328/BlogAssignment/index.php:32] 
+[19-May-2017 11:49:41 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 11:49:41 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:57] Base->{closure}()
+[19-May-2017 11:49:41 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 11:49:41 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 13:34:28 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 13:34:28 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:57] Base->{closure}()
+[19-May-2017 13:34:28 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 13:34:28 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 17:32:44 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 17:32:44 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:53] Base->{closure}()
+[19-May-2017 17:32:44 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 17:32:44 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 17:34:55 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 17:34:55 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:51] Base->{closure}()
+[19-May-2017 17:34:55 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 17:34:55 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 17:52:11 America/Chicago] Object of class BlogPost could not be converted to string
+[19-May-2017 17:52:11 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] Base->{closure}()
+[19-May-2017 17:52:11 America/Chicago] [328/BlogAssignment/index.php:65] Preview->render()
+[19-May-2017 17:52:11 America/Chicago] [328/BlogAssignment/index.php:72] Base->run()
+[19-May-2017 17:53:36 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 70
+[19-May-2017 17:53:36 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting ']'
+[19-May-2017 17:53:36 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] 
+[19-May-2017 17:54:01 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 70
+[19-May-2017 17:54:01 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting ']'
+[19-May-2017 17:54:01 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] 
+[19-May-2017 17:54:46 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 70
+[19-May-2017 17:54:46 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting ']'
+[19-May-2017 17:54:46 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] 
+[19-May-2017 17:54:48 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 70
+[19-May-2017 17:54:48 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting ']'
+[19-May-2017 17:54:48 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] 
+[19-May-2017 17:59:23 America/Chicago] PHP Parse error:  syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING) in /home/smoon/public_html/328/BlogAssignment/index.php on line 46
+[19-May-2017 17:59:33 America/Chicago] PHP Parse error:  syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING) in /home/smoon/public_html/328/BlogAssignment/index.php on line 46
+[19-May-2017 17:59:35 America/Chicago] PHP Parse error:  syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING) in /home/smoon/public_html/328/BlogAssignment/index.php on line 46
+[19-May-2017 17:59:41 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 17:59:41 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 17:59:41 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 17:59:41 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:30 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:30 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:30 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:30 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:44 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:44 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:44 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:44 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:45 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:45 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:45 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:45 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:49 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:49 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:49 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:49 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:50 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:50 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:50 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:50 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 18:00:54 America/Chicago] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined [/home/smoon/public_html/328/BlogAssignment/model/blogdb.php:118]
+[19-May-2017 18:00:54 America/Chicago] [328/BlogAssignment/model/blogdb.php:118] PDOStatement->execute()
+[19-May-2017 18:00:54 America/Chicago] [328/BlogAssignment/index.php:41] BlogDB->bloggerById()
+[19-May-2017 18:00:54 America/Chicago] [328/BlogAssignment/index.php:77] Base->run()
+[19-May-2017 19:35:02 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 70
+[19-May-2017 19:35:02 America/Chicago] Fatal error: syntax error, unexpected '{'
+[19-May-2017 19:35:02 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:70] 
+[19-May-2017 21:10:40 America/Chicago] HTTP 404 (GET /smoon.greenrivertech.net/328/BlogAssignment)
+[19-May-2017 21:10:40 America/Chicago] [328/BlogAssignment/index.php:76] Base->run()
+[19-May-2017 21:10:44 America/Chicago] HTTP 404 (GET /smoon.greenrivertech.net/328/BlogAssignment)
+[19-May-2017 21:10:44 America/Chicago] [328/BlogAssignment/index.php:76] Base->run()
