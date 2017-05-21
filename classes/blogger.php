@@ -43,7 +43,7 @@ class Blogger
             return $this->email;
         }
         
-        function setPassword()
+        function setPassword($password)
         {
             $this->password = $password;
         }
@@ -63,7 +63,7 @@ class Blogger
             return $this->portrait;
         }
         
-        function setBio()
+        function setBio($bio)
         {
             $this->bio = $bio;
         }
@@ -72,6 +72,7 @@ class Blogger
         {
             return $this->bio;
         }
+    }
         
         
 ?>

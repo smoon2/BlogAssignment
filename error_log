@@ -202,3 +202,94 @@
 [19-May-2017 21:10:40 America/Chicago] [328/BlogAssignment/index.php:76] Base->run()
 [19-May-2017 21:10:44 America/Chicago] HTTP 404 (GET /smoon.greenrivertech.net/328/BlogAssignment)
 [19-May-2017 21:10:44 America/Chicago] [328/BlogAssignment/index.php:76] Base->run()
+[20-May-2017 10:37:54 America/Chicago] HTTP 404 (GET /login)
+[20-May-2017 10:37:54 America/Chicago] [328/BlogAssignment/index.php:80] Base->run()
+[20-May-2017 15:03:15 America/Chicago] HTTP 404 (GET /registeration)
+[20-May-2017 15:03:15 America/Chicago] [328/BlogAssignment/index.php:82] Base->run()
+[20-May-2017 15:03:40 America/Chicago] Unable to open pages/registeration.html
+[20-May-2017 15:03:40 America/Chicago] [328/BlogAssignment/index.php:82] Preview->render()
+[20-May-2017 15:03:40 America/Chicago] [328/BlogAssignment/index.php:86] Base->run()
+[20-May-2017 15:03:41 America/Chicago] Unable to open pages/registeration.html
+[20-May-2017 15:03:41 America/Chicago] [328/BlogAssignment/index.php:82] Preview->render()
+[20-May-2017 15:03:41 America/Chicago] [328/BlogAssignment/index.php:86] Base->run()
+[20-May-2017 18:37:33 America/Chicago] PHP Fatal error:  Cannot use object of type BlogPost as array in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 58
+[20-May-2017 18:37:33 America/Chicago] Fatal error: Cannot use object of type BlogPost as array
+[20-May-2017 18:37:33 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:58] 
+[20-May-2017 18:39:03 America/Chicago] PHP Fatal error:  Cannot use object of type BlogPost as array in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 58
+[20-May-2017 18:39:03 America/Chicago] Fatal error: Cannot use object of type BlogPost as array
+[20-May-2017 18:39:03 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:58] 
+[20-May-2017 18:39:06 America/Chicago] PHP Fatal error:  Cannot use object of type BlogPost as array in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 58
+[20-May-2017 18:39:06 America/Chicago] Fatal error: Cannot use object of type BlogPost as array
+[20-May-2017 18:39:06 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:58] 
+[20-May-2017 18:43:16 America/Chicago] Object of class BlogPost could not be converted to string
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:58] Base->{closure}()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2708] require('/home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php')
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2925] View->sandbox()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/index.php:70] Preview->render()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[20-May-2017 18:43:16 America/Chicago] [328/BlogAssignment/index.php:87] Base->run()
+[20-May-2017 18:52:53 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:52:53 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:52:53 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:53:31 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:53:31 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:53:31 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:53:33 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:53:33 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:53:33 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:00 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:00 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:00 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:02 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:02 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:02 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:03 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:03 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:03 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:19 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:19 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:19 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:20 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:20 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:20 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:54:24 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:54:24 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:54:24 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:02 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:02 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:02 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:03 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:03 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:03 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:22 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:22 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:22 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:23 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:23 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:23 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:26 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:26 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:26 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:55:32 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/smoon/public_html/328/BlogAssignment/classes/blogger.php on line 77
+[20-May-2017 18:55:32 America/Chicago] Fatal error: syntax error, unexpected '?>', expecting function (T_FUNCTION)
+[20-May-2017 18:55:32 America/Chicago] [328/BlogAssignment/classes/blogger.php:77] 
+[20-May-2017 18:56:23 America/Chicago] PHP Fatal error:  Class 'Blogger' not found in /home/smoon/public_html/328/BlogAssignment/index.php on line 41
+[20-May-2017 18:56:23 America/Chicago] Fatal error: Class 'Blogger' not found
+[20-May-2017 18:56:23 America/Chicago] [328/BlogAssignment/index.php:41] 
+[20-May-2017 18:57:38 America/Chicago] PHP Fatal error:  Cannot use object of type BlogPost as array in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php on line 71
+[20-May-2017 18:57:38 America/Chicago] Fatal error: Cannot use object of type BlogPost as array
+[20-May-2017 18:57:38 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:71] 
+[20-May-2017 19:47:14 America/Chicago] HTTP 404 (GET /register)
+[20-May-2017 19:47:14 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[20-May-2017 19:47:14 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 11:31:38 America/Chicago] HTTP 404 (GET /home)
+[21-May-2017 11:31:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 11:31:38 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 11:32:39 America/Chicago] HTTP 404 (GET /home)
+[21-May-2017 11:32:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 11:32:39 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 11:33:00 America/Chicago] HTTP 404 (GET /smoon.greenrivertech.net/328/BlogAssignment)
+[21-May-2017 11:33:00 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 11:33:00 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()

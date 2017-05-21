@@ -6,6 +6,7 @@
     
     //Create an instance of the Base class
     $f3 = Base::instance();
+	$f3->set('DEBUG', 3);
     $blogDB = new BlogDB();
     
     //Default route
@@ -17,7 +18,7 @@
         //$f3->set("blogs", $blogs);
         //
         $blogsArray = array();
-        $blogPosts = $GLOBALS['blogDB']->allBlogPosts();
+        $blogPosts = $GLOBALS['blogDB']->recentBlogPosts();
         foreach($blogPosts as $blogPost){
             //print_r($blogPost);
             //print_r($blogPost[entry]);
@@ -30,47 +31,41 @@
         }
     
         $f3->set('blogsArray', $blogsArray);
-        
-        
+       
+		
+		
+		$bloggersArray = array();
 		$bloggers = $GLOBALS['blogDB']->allBloggers();
+		foreach($bloggers as $blogger){
+			$bloggerObject = new Blogger($blogger[bloggerId], $blogger[username], $blogger[email], $blogger[portrait], $blogger[bio]);
+			$bloggersArray[] = $bloggerObject;
+		}
+		$f3->set('bloggersArray', $bloggersArray);
+		
+		
 		//Assign the members to an f3 variable
 		$f3->set('blogPosts', $blogPosts);
         $f3->set('bloggers', $bloggers);
         
-    
-    
-        
-        //print_r($bloggers);
-        //print_r($blogPosts);        
-        //$f3->set('username', 'jshmo');
-        //$f3->set('password', sha1('Password01'));
-        //$f3->set('title', 'Working with Templates');
-        //$f3->set('temp', 68);
-        //$f3->set('color', 'purple');
-        //$f3->set('radius', 10);
-        //$f3->set('bookmarks', array('http://www.google.com', 'http://www.leagueoflegends.com',
-        //                            'http://www.facebook.com'));
-        //$f3->set('addresses', array('primary' => '1003 S 308th, FederalWay, WA 98003',
-        //                            'secondary' => '9532 100th Court, Kent, WA 98000'));
-        //$f3->set('desserts', array('chocolate' => 'Chocolate Mousse', 'vanilla'=>'Vanilla Custard',
-        //                           'strawberry' => 'Strawberry Shortcake'));
-        //
-        ////Conditional content
-        //$f3->set('preferredCustomer', true);
-        //$f3->set('lastLogin', strtotime('-1 week'));
-        //
-        ////objects
-        //$pet = new Pet('Dexter', 'Orange');
-        //$f3->set('myPet', $pet);
-        
+  
 
         
         //load a template
         echo Template::instance()->render('pages/home.html');
         
     });
+	
+	$f3->route('GET /about', function($f3) {
+		echo Template::instance()->render('pages/about.html');
+	});
     
-    
+    $f3->route('GET /login', function($f3) {
+		echo Template::instance()->render('pages/login.html');
+	});
+	
+	 $f3->route('GET /registration', function($f3) {
+		echo Template::instance()->render('pages/registration.html');
+	});
 
     //Run fat free
     $f3->run();

@@ -73,9 +73,9 @@ class BlogDB{
 
 
 /*
-         * This function gets all the blog posts ordered by date and puts it into an array!
+         * This function retrieves the most recent blog post per each blogger.
          */
-        function allBlogPosts()
+        function recentBlogPosts()
         {
             $select = 'SELECT bloggerId, date, title, entry FROM BlogPosts ORDER BY date';
             $results = $this->_pdo->query($select);

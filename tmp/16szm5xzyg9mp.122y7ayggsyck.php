@@ -30,10 +30,10 @@
                <div class="col-sm-3">
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="w3-padding-64 w3-center"><b>REALLY<br>COOL<br>BLOG</b></h3>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">HOME</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">BECOME A BLOGGER</a> 
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
+  <a href="" onclick="wc_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="registration" onclick="w3_close()" class="w3-bar-item w3-button">BECOME A BLOGGER</a> 
+  <a href="about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
+  <a href="login" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
   <h4>Copyright © Sonie 2017</h4>
 </nav>
 </div>
@@ -44,34 +44,27 @@
         <!-- where the containers go -->
         <div class="col-sm-9">
  <!--             <div class = "row">
-  <!--              
-             
-         
-           
-                
-                
+    <!----
+    -->
+    
                 
             <!-- card! -->    
-            <?php foreach (($bloggers?:[]) as $blogger): ?>
+            <?php foreach (($bloggersArray?:[]) as $blogger): ?>
               
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="container">
                     
-                        <div class="avatar-flip"><img src="<?= $blogger[portrait] ?>" height="150" width="150">
+                        <div class="avatar-flip"><img src="<?= $blogger->getPortrait() ?>" height="150" width="150">
   
   
                     </div>
-                         <h2><?= $blogger[username] ?> </h2>
-
-   
-    
-        
-            <h4><?= $blogger[bio] ?> </h4><hr>
-                        <?php foreach (($blogPosts?:[]) as $blogPost): ?>
-                            <?php if ($blogPost[bloggerId] ==  $blogger[bloggerId]): ?>
+                         <h2><?= $blogger->getUsername() ?> </h2>
+            <h4><?= $blogger->getBio() ?> </h4><hr>
+                        <?php foreach (($blogsArray?:[]) as $blogPost): ?>
+                            <?php if ($blogPost->getBloggerId() ==  $blogger->getBloggerId()): ?>
  
             
-            <p>Recent blog : <a href=""><?= $blogPost[title] ?> = <?= $blogPost[entry] ?> > Click to read more</a></p>
+            <p>Recent blog : <a href=""><?= $blogPost->getTitle() ?> > Click to read more</a></p>
         
     <?php endif; ?>
   <p>
