@@ -47,24 +47,17 @@ class BlogDB{
          * Adds a new member in the DB
          *
          */
-        function addMember($fname, $lname, $age, $gender, $email, $phone, $state, $seeking, $biography, $interests, $premium)
+        function addBlogger($username,$email,$password,$portrait,$bio)
         {
-            $insert = 'INSERT INTO Members (fname, lname, age, gender, email, phone, state, seeking,
-            bio, interests, premium) VALUES (:fname, :lname, :age, :gender, :email, :phone, :state, :seeking, :biography, :interests, :premium)';
+            $insert = 'INSERT INTO Bloggers (username,email,password,portrait,bio) VALUES (:username, :email, :password, :portrait, :bio)';
             
             $statement = $this->_pdo->prepare($insert);
-            $statement->bindValue(':fname', $fname, PDO::PARAM_STR);
-            $statement->bindValue(':lname', $lname, PDO::PARAM_STR);
-            $statement->bindValue(':age', $age, PDO::PARAM_STR);
-            $statement->bindValue(':gender', $gender, PDO::PARAM_STR);
+            $statement->bindValue(':username', $username, PDO::PARAM_STR);
             $statement->bindValue(':email', $email, PDO::PARAM_STR);
-            $statement->bindValue(':phone', $phone, PDO::PARAM_STR);
-            $statement->bindValue(':state', $state, PDO::PARAM_STR);
-            $statement->bindValue(':seeking', $seeking, PDO::PARAM_STR);
-            $statement->bindValue(':biography', $biography, PDO::PARAM_STR);
-            $statement->bindValue(':interests', $interests, PDO::PARAM_STR);
-            $statement->bindValue(':premium', $premium, PDO::PARAM_STR);
-            
+            $statement->bindValue(':password', $password, PDO::PARAM_STR);
+            $statement->bindValue(':portrait', $portrait, PDO::PARAM_STR);
+            $statement->bindValue(':bio', $bio, PDO::PARAM_STR);
+           
             $statement->execute();
             
             //Return ID of inserted row
@@ -122,6 +115,11 @@ class BlogDB{
              
             return $statement->fetch(PDO::FETCH_ASSOC);
         }
+        
+
+        
+        
+   
         
     }
 ?>

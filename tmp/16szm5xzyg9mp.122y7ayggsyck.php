@@ -25,18 +25,16 @@
                     </ul><br>
                 </div>-->
                <!-- Sidebar/menu -->
-               
-               
                <div class="col-sm-3">
-<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="w3-padding-64 w3-center"><b>REALLY<br>COOL<br>BLOG</b></h3>
-  <a href="" onclick="wc_close()" class="w3-bar-item w3-button">HOME</a>
-  <a href="registration" onclick="w3_close()" class="w3-bar-item w3-button">BECOME A BLOGGER</a> 
-  <a href="about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
-  <a href="login" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
-  <h4>Copyright © Sonie 2017</h4>
-</nav>
-</div>
+                <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+                <h3 class="w3-padding-64 w3-center"><b>REALLY<br>COOL<br>BLOG</b></h3>
+                    <a href="" onclick="wc_close()" class="w3-bar-item w3-button">HOME</a>
+                    <a href="registration" onclick="w3_close()" class="w3-bar-item w3-button">BECOME A BLOGGER</a> 
+                    <a href="about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
+                    <a href="login" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
+                <h4>Copyright © Sonie 2017</h4>
+                </nav>
+                </div>
          
            <!-- <?php foreach (($blogPosts[1]?:[]) as $blog): ?>
        <li><?= $blog ?> </li> <?php endforeach; ?>-->
@@ -50,15 +48,16 @@
                 
             <!-- card! -->    
             <?php foreach (($bloggersArray?:[]) as $blogger): ?>
-              
+           
                 <div class="col-md-4">
-                    <div class="container">
+                   <div class="container">
                     
                         <div class="avatar-flip"><img src="<?= $blogger->getPortrait() ?>" height="150" width="150">
   
   
                     </div>
-                         <h2><?= $blogger->getUsername() ?> </h2>
+                        
+                         <a href="view?bloggerId=<?= $blogger->getBloggerId() ?>"><h2><?= $blogger->getUsername() ?> </h2></a>
             <h4><?= $blogger->getBio() ?> </h4><hr>
                         <?php foreach (($blogsArray?:[]) as $blogPost): ?>
                             <?php if ($blogPost->getBloggerId() ==  $blogger->getBloggerId()): ?>

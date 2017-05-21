@@ -293,3 +293,281 @@
 [21-May-2017 11:33:00 America/Chicago] HTTP 404 (GET /smoon.greenrivertech.net/328/BlogAssignment)
 [21-May-2017 11:33:00 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
 [21-May-2017 11:33:00 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 11:45:19 America/Chicago] HTTP 404 (POST /registration.php)
+[21-May-2017 11:45:19 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 11:45:19 America/Chicago] [328/BlogAssignment/index.php:71] Base->run()
+[21-May-2017 11:45:54 America/Chicago] HTTP 404 (POST /registration.php)
+[21-May-2017 11:45:54 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 11:45:54 America/Chicago] [328/BlogAssignment/index.php:76] Base->run()
+[21-May-2017 13:20:09 America/Chicago] PHP Fatal error:  Cannot redeclare BlogDB::addBlogger() in /home/smoon/public_html/328/BlogAssignment/model/blogdb.php on line 120
+[21-May-2017 13:20:09 America/Chicago] Fatal error: Cannot redeclare BlogDB::addBlogger()
+[21-May-2017 13:20:09 America/Chicago] [328/BlogAssignment/model/blogdb.php:120] 
+[21-May-2017 13:20:40 America/Chicago] PHP Fatal error:  Cannot redeclare BlogDB::addBlogger() in /home/smoon/public_html/328/BlogAssignment/model/blogdb.php on line 120
+[21-May-2017 13:20:40 America/Chicago] Fatal error: Cannot redeclare BlogDB::addBlogger()
+[21-May-2017 13:20:40 America/Chicago] [328/BlogAssignment/model/blogdb.php:120] 
+[21-May-2017 13:20:41 America/Chicago] PHP Fatal error:  Cannot redeclare BlogDB::addBlogger() in /home/smoon/public_html/328/BlogAssignment/model/blogdb.php on line 120
+[21-May-2017 13:20:41 America/Chicago] Fatal error: Cannot redeclare BlogDB::addBlogger()
+[21-May-2017 13:20:41 America/Chicago] [328/BlogAssignment/model/blogdb.php:120] 
+[21-May-2017 13:20:42 America/Chicago] PHP Fatal error:  Cannot redeclare BlogDB::addBlogger() in /home/smoon/public_html/328/BlogAssignment/model/blogdb.php on line 120
+[21-May-2017 13:20:42 America/Chicago] Fatal error: Cannot redeclare BlogDB::addBlogger()
+[21-May-2017 13:20:42 America/Chicago] [328/BlogAssignment/model/blogdb.php:120] 
+[21-May-2017 13:21:25 America/Chicago] HTTP 404 (POST /registration.php)
+[21-May-2017 13:21:25 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:21:25 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:22:50 America/Chicago] HTTP 404 (POST /registration.php)
+[21-May-2017 13:22:50 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:22:50 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:23:20 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 13:23:20 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:23:20 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:26:31 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 13:26:31 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:26:31 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:27:09 America/Chicago] HTTP 404 (GET /registration2.php)
+[21-May-2017 13:27:09 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:27:09 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:27:13 America/Chicago] HTTP 404 (GET /registration2.php)
+[21-May-2017 13:27:13 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:27:13 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:27:22 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 13:27:22 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:27:22 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 13:32:48 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 13:32:48 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 13:32:48 America/Chicago] [328/BlogAssignment/index.php:91] Base->run()
+[21-May-2017 14:08:55 America/Chicago] HTTP 404 (GET /view.html?id=%27%20.%201%20.%20%27)
+[21-May-2017 14:08:55 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:08:55 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:11:35 America/Chicago] HTTP 404 (GET /view.html/%201)
+[21-May-2017 14:11:35 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:11:35 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:13:08 America/Chicago] HTTP 404 (GET /view.html/%202)
+[21-May-2017 14:13:08 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:13:08 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:13:11 America/Chicago] HTTP 404 (GET /view.html/%203)
+[21-May-2017 14:13:11 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:13:11 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:13:19 America/Chicago] HTTP 404 (GET /view.html/%204)
+[21-May-2017 14:13:19 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:13:19 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:13:36 America/Chicago] HTTP 404 (GET /view.html/%20smoon2)
+[21-May-2017 14:13:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:13:36 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:15:20 America/Chicago] HTTP 404 (GET /view/%201)
+[21-May-2017 14:15:20 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:15:20 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:17:16 America/Chicago] HTTP 404 (GET /view/%202)
+[21-May-2017 14:17:16 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:17:16 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:17:20 America/Chicago] HTTP 404 (GET /view/%203)
+[21-May-2017 14:17:20 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:17:20 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:17:33 America/Chicago] HTTP 404 (GET /view/%203)
+[21-May-2017 14:17:33 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:17:33 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:17:36 America/Chicago] HTTP 404 (GET /view%201)
+[21-May-2017 14:17:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:17:36 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:17:41 America/Chicago] HTTP 404 (GET /view%203)
+[21-May-2017 14:17:41 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:17:41 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:36 America/Chicago] Object of class Blogger could not be converted to string
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:59] Base->{closure}()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2708] require('/home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php')
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2925] View->sandbox()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/index.php:54] Preview->render()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 14:18:36 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:38 America/Chicago] Object of class Blogger could not be converted to string
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:59] Base->{closure}()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2708] require('/home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php')
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2925] View->sandbox()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/index.php:54] Preview->render()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 14:18:38 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:39 America/Chicago] Object of class Blogger could not be converted to string
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php:59] Base->{closure}()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2708] require('/home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.122y7ayggsyck.php')
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2925] View->sandbox()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/index.php:54] Preview->render()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 14:18:39 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:50 America/Chicago] HTTP 404 (GET /view%206)
+[21-May-2017 14:18:50 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:18:50 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:56 America/Chicago] HTTP 404 (GET /view%201)
+[21-May-2017 14:18:56 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:18:56 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:18:58 America/Chicago] HTTP 404 (GET /view%201)
+[21-May-2017 14:18:58 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:18:58 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:19:13 America/Chicago] HTTP 404 (GET /view%202)
+[21-May-2017 14:19:13 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:19:13 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:22:17 America/Chicago] HTTP 404 (GET /view%201)
+[21-May-2017 14:22:17 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:22:17 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:23:09 America/Chicago] HTTP 404 (GET /view.html?id=%27%20.%20$row[%27bloggerId%27].%20%27)
+[21-May-2017 14:23:09 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:23:09 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:23:29 America/Chicago] HTTP 404 (GET /view.html?id=%27%20.%20$blogger[%27bloggerId%27].%20%27)
+[21-May-2017 14:23:29 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:23:29 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:25:06 America/Chicago] HTTP 404 (GET /view.html?id=)
+[21-May-2017 14:25:06 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:25:06 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:25:23 America/Chicago] HTTP 404 (GET /view.html?id=%201)
+[21-May-2017 14:25:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:25:23 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:26:08 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 14:26:08 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:26:08 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:27:04 America/Chicago] HTTP 404 (GET /view.html?id=%201)
+[21-May-2017 14:27:04 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:27:04 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:27:23 America/Chicago] HTTP 404 (GET /view.html?id=1)
+[21-May-2017 14:27:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:27:23 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:31:25 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 14:31:25 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:31:25 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:34:04 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 14:34:04 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:34:04 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:34:45 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 14:34:45 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:34:45 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:36:50 America/Chicago] HTTP 404 (POST /registration2.php)
+[21-May-2017 14:36:50 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 14:36:50 America/Chicago] [328/BlogAssignment/index.php:96] Base->run()
+[21-May-2017 14:38:45 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 82
+[21-May-2017 14:38:45 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:38:45 America/Chicago] [328/BlogAssignment/index.php:82] 
+[21-May-2017 14:39:18 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 82
+[21-May-2017 14:39:18 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:39:18 America/Chicago] [328/BlogAssignment/index.php:82] 
+[21-May-2017 14:41:06 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 88
+[21-May-2017 14:41:06 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:41:06 America/Chicago] [328/BlogAssignment/index.php:88] 
+[21-May-2017 14:42:31 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 95
+[21-May-2017 14:42:31 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:42:31 America/Chicago] [328/BlogAssignment/index.php:95] 
+[21-May-2017 14:47:54 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 86
+[21-May-2017 14:47:54 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:47:54 America/Chicago] [328/BlogAssignment/index.php:86] 
+[21-May-2017 14:48:06 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 86
+[21-May-2017 14:48:06 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:48:06 America/Chicago] [328/BlogAssignment/index.php:86] 
+[21-May-2017 14:48:19 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 86
+[21-May-2017 14:48:19 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:48:19 America/Chicago] [328/BlogAssignment/index.php:86] 
+[21-May-2017 14:48:36 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 86
+[21-May-2017 14:48:36 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:48:36 America/Chicago] [328/BlogAssignment/index.php:86] 
+[21-May-2017 14:52:39 America/Chicago] Missing argument 6 for Blogger::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 85 and defined
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/classes/blogger.php:11] Base->{closure}()
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/index.php:85] Blogger->__construct()
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 14:52:39 America/Chicago] [328/BlogAssignment/index.php:110] Base->run()
+[21-May-2017 14:55:04 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 87
+[21-May-2017 14:55:04 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:55:04 America/Chicago] [328/BlogAssignment/index.php:87] 
+[21-May-2017 14:57:37 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 87
+[21-May-2017 14:57:37 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:57:37 America/Chicago] [328/BlogAssignment/index.php:87] 
+[21-May-2017 14:59:32 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 87
+[21-May-2017 14:59:32 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 14:59:32 America/Chicago] [328/BlogAssignment/index.php:87] 
+[21-May-2017 15:00:33 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 88
+[21-May-2017 15:00:33 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 15:00:33 America/Chicago] [328/BlogAssignment/index.php:88] 
+[21-May-2017 15:01:29 America/Chicago] print_r() expects at most 2 parameters, 5 given
+[21-May-2017 15:01:29 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 15:01:29 America/Chicago] [328/BlogAssignment/index.php:89] print_r()
+[21-May-2017 15:01:29 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 15:01:29 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 15:01:29 America/Chicago] [328/BlogAssignment/index.php:115] Base->run()
+[21-May-2017 15:01:45 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 89
+[21-May-2017 15:01:45 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 15:01:45 America/Chicago] [328/BlogAssignment/index.php:89] 
+[21-May-2017 15:02:03 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 89
+[21-May-2017 15:02:03 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 15:02:03 America/Chicago] [328/BlogAssignment/index.php:89] 
+[21-May-2017 15:02:21 America/Chicago] PHP Fatal error:  Call to a member function addBlogger() on a non-object in /home/smoon/public_html/328/BlogAssignment/index.php on line 89
+[21-May-2017 15:02:21 America/Chicago] Fatal error: Call to a member function addBlogger() on a non-object
+[21-May-2017 15:02:21 America/Chicago] [328/BlogAssignment/index.php:89] 
+[21-May-2017 15:49:00 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:49:00 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:49:00 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:49:03 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:49:03 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:49:03 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:49:44 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:49:44 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:49:44 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:23 America/Chicago] HTTP 405 (GET /registration2)
+[21-May-2017 15:50:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1661] Base->error()
+[21-May-2017 15:50:23 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:27 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:50:27 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:27 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:27 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:50:27 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:27 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:55 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:50:55 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:55 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:55 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:50:55 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:55 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:57 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:50:57 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:57 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:50:57 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:50:57 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:50:57 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:52:23 America/Chicago] Missing argument 6 for Blogger::__construct(), called in /home/smoon/public_html/328/BlogAssignment/index.php on line 40 and defined
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:2178] Base->error()
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/classes/blogger.php:11] Base->{closure}()
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/index.php:40] Blogger->__construct()
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1791] call_user_func_array()
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1612] Base->call()
+[21-May-2017 15:52:23 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:54:01 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:54:01 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:54:01 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:54:01 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:54:01 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:54:01 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:57:50 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:57:50 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:57:50 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:59:00 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:59:00 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:59:00 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:59:00 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:59:00 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:59:00 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:59:26 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 15:59:26 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:59:26 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 15:59:26 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 15:59:26 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 15:59:26 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 16:02:42 America/Chicago] HTTP 405 (GET /registration2)
+[21-May-2017 16:02:42 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1661] Base->error()
+[21-May-2017 16:02:42 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 16:09:28 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 16:09:28 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 16:09:28 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()
+[21-May-2017 16:09:28 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 16:09:28 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 16:09:28 America/Chicago] [328/BlogAssignment/index.php:104] Base->run()

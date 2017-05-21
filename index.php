@@ -37,7 +37,7 @@
 		$bloggersArray = array();
 		$bloggers = $GLOBALS['blogDB']->allBloggers();
 		foreach($bloggers as $blogger){
-			$bloggerObject = new Blogger($blogger[bloggerId], $blogger[username], $blogger[email], $blogger[portrait], $blogger[bio]);
+			$bloggerObject = new Blogger($blogger[bloggerId], $blogger[username], $blogger[email], $blogger[password], $blogger[portrait], $blogger[bio]);
 			$bloggersArray[] = $bloggerObject;
 		}
 		$f3->set('bloggersArray', $bloggersArray);
@@ -66,6 +66,39 @@
 	 $f3->route('GET /registration', function($f3) {
 		echo Template::instance()->render('pages/registration.html');
 	});
+	 
+	  $f3->route('POST /registration2', function($f3) {
+		$_SESSION['username'] = $_POST['username'];
+		$_SESSION['email'] = $_POST['email'];
+		if($_POST['password'] == $_POST['password2']){
+			$_SESSION['password'] = $_POST['password'];
+		}
+		$_SESSION['bio'] = $_POST['bio'];
+		$_SESSION['portrait'] = $_POST['portrait'];
+		
+		 $username = $_SESSION['username'];
+         $email = $_SESSION['email'];
+         $password = $_SESSION['password'];
+         $bio = $_SESSION['bio'];
+		 $portrait = $_SESSION['portrait'];
+
+		$newBlogger = new Blogger("", $username, $email, $password, $portrait, $bio);
+		$f3->set('username', $username);
+		$_SESSION['newBlogger'] = $newBlogger;
+		
+		$GLOBALS['blogDB']->addBlogger($newBlogger->getUsername(), $newBlogger->getEmail(), $newBlogger->getPassword(),
+													 $newBlogger->getPortrait(), $newBlogger->getBio());
+		
+		
+		echo Template::instance()->render('pages/registration2.php');
+		
+	});
+	    
+    $f3->route('GET /view', function($f3) {
+		echo Template::instance()->render('pages/view.html');
+	});
+	  
+	 
 
     //Run fat free
     $f3->run();

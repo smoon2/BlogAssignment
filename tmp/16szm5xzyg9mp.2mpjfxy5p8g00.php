@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
     <html>
         <head>
             <meta charset="utf-8">
@@ -35,62 +36,26 @@
                 <h4>Copyright © Sonie 2017</h4>
                 </nav>
                 </div>
-         
-           <!-- <repeat group="{{ @blogPosts[1] }}" value="{{ @blog }}">
-       <li>{{ @blog }} </li> </repeat>-->
-        
-        <!-- where the containers go -->
-        <div class="col-sm-9">
- <!--             <div class = "row">
-    <!----
-    -->
-    
-                
-            <!-- card! -->    
-            <repeat group="{{ @bloggersArray }}" value="{{ @blogger }}">
-           
-                <div class="col-md-4">
-                   <div class="container">
+               
+                 <div class="container">
+               <div class="col-sm-9">
+               
+                    <h2> Thank you for registrating, <?= $username ?> </h2><br>
+                    <h2> Your account has been created successfully. </h2>
+                    <div class="form-group">
+                <div class="col-sm-2">
+                  <a href=""><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Visit my Blog</button></a></div>
+                </div>&emsp; &emsp; 
+                    <div class="form-group">
+                <div class="col-sm-2">
+                  <a href=""></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
+                </div>
                     
-                        <div class="avatar-flip"><img src="{{ @blogger->getPortrait() }}" height="150" width="150">
-  
-  
-                    </div>
-                        
-                         <a href="view?bloggerId={{ @blogger->getBloggerId() }}"><h2>{{ @blogger->getUsername() }} </h2></a>
-            <h4>{{ @blogger->getBio() }} </h4><hr>
-                        <repeat group="{{ @blogsArray }}" value="{{ @blogPost }}">
-                            <check if="{{ @blogPost->getBloggerId() ==  @blogger->getBloggerId() }}">
- 
-            <true>
-            <p>Recent blog : <a href="">{{ @blogPost->getTitle() }} > Click to read more</a></p>
-        </true>
-    </check>
-  <p>
-  </p>
-  </repeat>
-  
-                     
+                    
+                </div>
+               </div>
+               
+            
+         
+</html>
 
-                
-
-</div>
-</div>
-</repeat><!-- card done!-->
-            
-            
-            
-            </div>          
-            </div>
-            </div>
-            
-            
-            
-            
-            
-        </div>
-<!--            <div class="container">-->
-          
-            </div>
-        </body>
-    </html>

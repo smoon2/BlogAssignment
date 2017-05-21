@@ -38,7 +38,7 @@
                 
                 
                <!-- <div class="container">-->
-              <form id="registration" action="registration.php" method="post" class="form-horizontal">
+              <form action="./registration2" id="registration"  method="post" class="form-horizontal">
   
                 
                      <div class="col-md-2 control-group">
@@ -67,7 +67,7 @@
                 <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-lock"></span></div>
-						<input type="password" class="form-control" required placeholder="Verif: enter your password again" name="password"></div>
+						<input type="password" class="form-control" required placeholder="Verif: enter your password again" name="password2"></div>
                <br>
                
                 
@@ -87,7 +87,7 @@
                   <div class="col-md-2 control-group">
                 <div class="container">
                             <h4>Upload your profile image! </h4>
-                              <input type="file" name="pic" accept="image/*"><br>
+                              <input type="file" name="portrait" accept="image/*"><br>
                   <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-comment"></span></div>                  

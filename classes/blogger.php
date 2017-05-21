@@ -8,7 +8,7 @@ class Blogger
         private $portrait;
         private $bio;
         
-        function __construct($bloggerId, $username, $email, $portrait, $bio)
+        function __construct($bloggerId, $username, $email, $password, $portrait, $bio)
         {
         $this->bloggerId = $bloggerId;
         $this->username = $username;
