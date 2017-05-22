@@ -154,9 +154,7 @@
         }
     
         $f3->set('recentBlog', $blogPostObject);
-		print_r($recentBlog);
-		$hi = 'hello hi';
-		print_r(str_word_count($hi));
+		
 		
 		
 		echo Template::instance()->render('pages/view.html');
@@ -164,7 +162,24 @@
 	});
 	
 	  $f3->route('GET /viewPost', function($f3, $id) {
+		$id = $_GET['bloggerId'];
 		
+		$f3->set('id', $id);
+				$blogposts = $GLOBALS['blogDB']->allBlogPosts();
+		
+		$blogsArray = array();
+		foreach($blogposts as $blogpost){
+			if($blogpost[bloggerId] == $id){
+
+				$blogsArray[] = $blogpost;
+			}
+			
+		}
+	
+		$f3->set('blogsArray', $blogsArray);
+
+		
+		echo Template::instance()->render('pages/viewPost.html');
 	  });
 	  
 	 

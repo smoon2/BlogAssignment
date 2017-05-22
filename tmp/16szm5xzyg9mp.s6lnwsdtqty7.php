@@ -14,16 +14,6 @@
         <body>
            
             <div class="container-fluid">
-               <!-- <div class="col-sm-3 sidenav">
-                    <h4>Blog Site</h4>
-                 
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Become a Blogger</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="">Hi</a></li>
-                    </ul><br>
-                </div>-->
                <!-- Sidebar/menu -->
                <div class="col-sm-3">
                 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
@@ -41,12 +31,12 @@
                 <div class="container-big">
                <h2><br><?= $blogger->getUsername() ?>'s Blog  </h2><hr>
                <h3>My Most Recent Blog : </h3>
-               <p>Excerpt: <?= $recentBlog->getEntry() ?></p>
+               <p><a href="">Excerpt: <?= $recentBlog->getEntry() ?></p></a>
                <hr>
                <h3>My Blogs:</h3>
                <?php foreach (($blogsArray?:[]) as $blogpost): ?>
-                  <p><?= $blogpost[title] ?> - word count :- <?= $blogpost[date] ?><br>
-                  <?= $blogpost[entry] ?></p><br>
+                  <p><a href="viewPost?bloggerId=<?= $blogger->getBloggerId() ?>"><?= $blogpost[title] ?> - word count :- <?= $blogpost[date] ?><br>
+                  <?= $blogpost[entry] ?></p></a><br>
                   
                  
                   

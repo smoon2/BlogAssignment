@@ -1099,3 +1099,102 @@
 [21-May-2017 22:07:01 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
 [21-May-2017 22:07:01 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
 [21-May-2017 22:07:01 America/Chicago] [328/BlogAssignment/index.php:169] Base->run()
+[21-May-2017 22:14:42 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 22:14:42 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 22:14:42 America/Chicago] [328/BlogAssignment/index.php:173] Base->run()
+[21-May-2017 22:14:42 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 22:14:42 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 22:14:42 America/Chicago] [328/BlogAssignment/index.php:173] Base->run()
+[21-May-2017 22:15:39 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 45
+[21-May-2017 22:15:39 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:15:39 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:45] 
+[21-May-2017 22:15:47 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 45
+[21-May-2017 22:15:47 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:15:47 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:45] 
+[21-May-2017 22:15:50 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 45
+[21-May-2017 22:15:50 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:15:50 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:45] 
+[21-May-2017 22:15:54 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 45
+[21-May-2017 22:15:54 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:15:54 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:45] 
+[21-May-2017 22:17:47 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:17:47 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:47 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:17:48 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:17:48 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:48 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:17:49 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:17:49 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:49 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:17:53 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:17:53 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:53 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:17:54 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:17:54 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:54 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:17:59 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:17:59 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:17:59 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:18:35 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:18:35 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:18:35 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:18:37 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:18:37 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:18:37 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:19:30 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:19:30 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:19:30 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:19:31 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:19:31 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:19:31 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:19:32 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:19:32 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:19:32 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:20:15 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:20:15 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:20:15 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:20:17 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 46
+[21-May-2017 22:20:17 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:20:17 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:46] 
+[21-May-2017 22:20:58 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:20:58 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:20:58 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:06 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:06 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:06 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:13 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:13 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:13 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:14 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:14 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:14 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:28 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:28 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:28 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:45 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:45 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:45 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:46 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:46 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:46 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:21:55 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:21:55 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:21:55 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:22:43 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:22:43 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:22:43 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:22:45 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[21-May-2017 22:22:45 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 22:22:45 America/Chicago] [328/BlogAssignment/index.php:188] Base->run()
+[21-May-2017 22:22:45 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[21-May-2017 22:22:45 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[21-May-2017 22:22:45 America/Chicago] [328/BlogAssignment/index.php:188] Base->run()
+[21-May-2017 22:22:47 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:22:47 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:22:47 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:22:53 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:22:53 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:22:53 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[21-May-2017 22:23:29 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
+[21-May-2017 22:23:29 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
+[21-May-2017 22:23:29 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 

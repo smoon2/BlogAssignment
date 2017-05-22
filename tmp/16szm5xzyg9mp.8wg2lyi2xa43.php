@@ -28,10 +28,10 @@
                
                <div class="col-md-5">
                 <div class="container-big">
-               <repeat group="{{ @blogsArray }}" value = "{{ @blog }}">
-                <h2>{{ @blog[title] }}</h2><hr>
-                <h3>{{ @blog[entry] }}</h3><br>
-               </repeat>
+               <?php foreach (($blogsArray?:[]) as $blog): ?>
+                <h2><?= $blog[title] ?></h2><hr>
+                <h3><?= $blog[entry] ?></h3><br>
+               <?php endforeach; ?>
                
                
                 
@@ -44,7 +44,7 @@
                  <div class="col-md-4 pull-right">
                    <div class="container-big">
                     
-                        <div class="avatar-flip"><img src="{{ @blogger->getPortrait() }}" height="150" width="150"></div>
-                        <h2>Bio : {{ @blogger->getBio() }} </h2>
+                        <div class="avatar-flip"><img src="<?= $blogger->getPortrait() ?>" height="150" width="150"></div>
+                        <h2>Bio : <?= $blogger->getBio() ?> </h2>
   
                     </div>
