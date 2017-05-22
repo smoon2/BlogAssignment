@@ -18,7 +18,7 @@
                <div class="col-sm-3">
                 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
                 <h3 class="w3-padding-64 w3-center"><b>REALLY<br>COOL<br>BLOG</b></h3>
-                    <a href="" onclick="wc_close()" class="w3-bar-item w3-button">HOME</a>
+                    <a href="http://smoon.greenrivertech.net/328/BlogAssignment/" onclick="wc_close()" class="w3-bar-item w3-button">HOME</a>
                     <a href="registration" onclick="w3_close()" class="w3-bar-item w3-button">BECOME A BLOGGER</a> 
                     <a href="about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
                     <a href="login" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
@@ -35,21 +35,21 @@
                     <h3> Please Log in Below</h3>
                 </div>
                </div>
-                
+                 <form action="./myblog" id="login"  method="post" class="form-horizontal">
                 <div class="container">
                <div class="col-sm-9">
                 <br>
                <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-user"></span></div>
-						<input type="text" class="form-control" required placeholder="Enter first name" name="FirstName"></div>
+						<input type="text" class="form-control" required placeholder="Enter your username" name="username"></div>
               
                <br>
            
                 <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-lock"></span></div>
-						<input type="text" class="form-control" required placeholder="Enter first name" name="FirstName"></div>
+						<input type="password" class="form-control" required placeholder="Eter your password" name="password"></div>
               </div>
                
                 

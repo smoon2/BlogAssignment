@@ -59,7 +59,37 @@
 	});
     
     $f3->route('GET /login', function($f3) {
+		
 		echo Template::instance()->render('pages/login.html');
+	});
+	
+	$f3->route('POST /myblog', function($f3) {
+		$_SESSION['username'] = $_POST['username'];
+		$_SESSION['password'] = $_POST['password'];
+		$username = $_SESSION['username'];
+		$password = $_SESSION['password'];
+	
+		$login = $GLOBALS['blogDB']->login($username, $password);
+		$f3->set('login', $login);
+		$f3->set('bloggerId', $login[bloggerId]);
+		$GLOBALS['blogdb']->allBlogPostsByBlogger($login[bloggerId]);
+		$f3->set('retrieveBlogposts', $retrieveBlogposts);
+		print_r($retrieveBlogposts);
+		
+		if(empty($login)){
+			echo "<script type='text/javascript'>alert('Wrong name or password.');</script>";
+			
+			 
+		}
+		
+		if(empty($login)){
+			$f3->reroute('login');
+		}
+		else{
+			
+		}
+		
+		echo Template::instance()->render('pages/myblog.html');
 	});
 	
 	 $f3->route('GET /registration', function($f3) {

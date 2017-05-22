@@ -98,6 +98,17 @@ class BlogDB{
             return $resultsArray;
         }
         
+        function allBlogPostsByBlogger($bloggerId)
+        {
+            $select = 'SELECT bloggerId, date, title, entry FROM BlogPosts WHERE bloggerId:=bloggerId';
+        $statement = $this->_pdo->prepare($select);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
+            $statement->execute();
+             
+            return $statement->fetch(PDO::FETCH_ASSOC);
+        }
+        
+        
         /**
          * This function retrieves all the bloggers from the database and returns an array that stores blogger. 
          */
@@ -132,6 +143,21 @@ class BlogDB{
             return $statement->fetch(PDO::FETCH_ASSOC);
         }
         
+        function login($username, $password)
+        {
+            $select = 'SELECT bloggerId, username, email, portrait, bio FROM Bloggers WHERE username=:username && password=:password';
+             $statement = $this->_pdo->prepare($select);
+            $statement->bindValue(':username', $username, PDO::PARAM_INT);
+            $statement->bindValue(':password', $password, PDO::PARAM_INT);
+            $statement->execute();
+            
+         
+            return $statement->fetch(PDO::FETCH_ASSOC);
+            
+        }
+        
+        
+      
 
         
         
