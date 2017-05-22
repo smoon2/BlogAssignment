@@ -58,12 +58,13 @@
                     </div>
                         
                          <a href="view?bloggerId={{ @blogger->getBloggerId() }}"><h2>{{ @blogger->getUsername() }} </h2></a>
+                         
             <h4>{{ @blogger->getBio() }} </h4><hr>
                         <repeat group="{{ @blogsArray }}" value="{{ @blogPost }}">
                             <check if="{{ @blogPost->getBloggerId() ==  @blogger->getBloggerId() }}">
  
             <true>
-            <p>Recent blog : <a href="">{{ @blogPost->getTitle() }} > Click to read more</a></p>
+            <p>Recent blog : {{ @blogPost->getTitle() }} > Click to read more</p>
         </true>
     </check>
   <p>

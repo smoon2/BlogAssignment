@@ -37,3 +37,51 @@
                 </div>
                
                
+               <div class="col-md-5">
+                <div class="container-big">
+               <h2><br><?= $blogger->getUsername() ?>'s Blog  </h2><hr>
+               <h3>My Most Recent Blog : </h3>
+               <p>Excerpt: <?= $recentBlog->getEntry() ?></p>
+               <hr>
+               <h3>My Blogs:</h3>
+               <?php foreach (($blogsArray?:[]) as $blogpost): ?>
+                  <p><?= $blogpost[title] ?> - word count :- <?= $blogpost[date] ?><br>
+                  <?= $blogpost[entry] ?></p><br>
+                  
+                 
+                  
+               <?php endforeach; ?>
+             
+               </div>
+                </div>
+                 <div class="col-md-4 pull-right">
+                   <div class="container-big">
+                    
+                        <div class="avatar-flip"><img src="<?= $blogger->getPortrait() ?>" height="150" width="150"></div>
+                        <h2>Bio : <?= $blogger->getBio() ?> </h2>
+  
+                    </div>
+               
+   <!--             <div class="container-big pull-right">
+                <div class="col-md-3">
+                    <br>
+                       <img src="<?= $blogger->getPortrait() ?>" height=600 width=400><hr>
+                       <h2>Bio : <?= $blogger-> getBio() ?></h2>
+                   
+                <!--    <?php foreach (($display?:[]) as $key=>$each): ?>
+                       
+                        
+                        
+                    <?php endforeach; ?>-->
+             <!--  </div>
+                 <div class="col-md-9">
+                 <div class="container">
+                    <h2>My Most Recent Blog : </h2>
+                    <h3></h3>
+                 </div>
+              </div>
+              -->
+              
+        </body>
+    </html>
+               

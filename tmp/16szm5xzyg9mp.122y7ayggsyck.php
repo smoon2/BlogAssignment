@@ -58,12 +58,13 @@
                     </div>
                         
                          <a href="view?bloggerId=<?= $blogger->getBloggerId() ?>"><h2><?= $blogger->getUsername() ?> </h2></a>
+                         
             <h4><?= $blogger->getBio() ?> </h4><hr>
                         <?php foreach (($blogsArray?:[]) as $blogPost): ?>
                             <?php if ($blogPost->getBloggerId() ==  $blogger->getBloggerId()): ?>
  
             
-            <p>Recent blog : <a href=""><?= $blogPost->getTitle() ?> > Click to read more</a></p>
+            <p>Recent blog : <?= $blogPost->getTitle() ?> > Click to read more</p>
         
     <?php endif; ?>
   <p>

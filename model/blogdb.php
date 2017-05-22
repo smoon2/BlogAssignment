@@ -6,7 +6,7 @@ class BlogDB{
        bloggerId INT(10),
        date DATE;
        title VARCHAR(30),
-       entry VARCHAR(500)
+       entry VARCHAR(2000)
     
     );
 
@@ -14,7 +14,8 @@ class BlogDB{
        bloggerId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
        username VARCHAR(20),
        email VARCHAR(50),
-       portrait VARCHAR(255) DEFAULT 'https://d30womf5coomej.cloudfront.net/ua/defaultuser.png'
+       password VARCHAR(100),
+       portrait VARCHAR(255) DEFAULT 'https://d30womf5coomej.cloudfront.net/ua/defaultuser.png',
        bio VARCHAR(50)
     );
     */
@@ -82,6 +83,21 @@ class BlogDB{
             return $resultsArray;
         }
         
+        
+        function allBlogPosts()
+        {
+            $select = 'SELECT bloggerId, date, title, entry FROM BlogPosts';
+            $results = $this->_pdo->query($select);
+             
+            $resultsArray = array();
+             
+            //map each pet id to a row of data for that pet
+            while ($row = $results->fetch(PDO::FETCH_ASSOC)) {
+                $resultsArray[] = $row;
+            }     
+            return $resultsArray;
+        }
+        
         /**
          * This function retrieves all the bloggers from the database and returns an array that stores blogger. 
          */
@@ -110,7 +126,7 @@ class BlogDB{
             $select = 'SELECT bloggerId, username, email, portrait, bio FROM Bloggers WHERE bloggerId=:bloggerId';
     
             $statement = $this->_pdo->prepare($select);
-            $statement->bindValue(':id', $id, PDO::PARAM_INT);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
             $statement->execute();
              
             return $statement->fetch(PDO::FETCH_ASSOC);

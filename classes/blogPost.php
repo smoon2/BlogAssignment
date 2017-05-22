@@ -13,6 +13,11 @@ class BlogPost {
         $this->entry = $entry;
     }
     
+    function setBloggerId($bloggerId)
+    {
+        $this->bloggerId = $bloggerId;
+    }
+    
     function getBloggerId()
     {
         return $this->bloggerId;    

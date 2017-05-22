@@ -43,11 +43,11 @@
                     <h2> Thank you for registrating, <?= $username ?> </h2><br>
                     <h2> Your account has been created successfully. </h2>
                     <div class="form-group">
-                <div class="col-sm-2">
+                <div class="col-sm-6">
                   <a href=""><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Visit my Blog</button></a></div>
-                </div>&emsp; &emsp; 
+                </div>
                     <div class="form-group">
-                <div class="col-sm-2">
+                <div class="col-sm-6">
                   <a href=""></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
                 </div>
                     
