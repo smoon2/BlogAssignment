@@ -59,11 +59,6 @@
 	});
     
     $f3->route('GET /login', function($f3) {
-		
-		echo Template::instance()->render('pages/login.html');
-	});
-	
-	$f3->route('POST /myblog', function($f3) {
 		$_SESSION['username'] = $_POST['username'];
 		$_SESSION['password'] = $_POST['password'];
 		$username = $_SESSION['username'];
@@ -72,25 +67,88 @@
 		$login = $GLOBALS['blogDB']->login($username, $password);
 		$f3->set('login', $login);
 		$f3->set('bloggerId', $login[bloggerId]);
-		$GLOBALS['blogdb']->allBlogPostsByBlogger($login[bloggerId]);
-		$f3->set('retrieveBlogposts', $retrieveBlogposts);
-		print_r($retrieveBlogposts);
 		
-		if(empty($login)){
-			echo "<script type='text/javascript'>alert('Wrong name or password.');</script>";
-			
-			 
-		}
+		echo Template::instance()->render('pages/login.html');
+	});
+	
+	$f3->route('POST /home2', function($f3) {
+		$_SESSION['username'] = $_POST['username'];
+		$_SESSION['password'] = $_POST['password'];
+		$username = $_SESSION['username'];
+		$password = $_SESSION['password'];
+	
+		$login = $GLOBALS['blogDB']->login($username, $password);
+		$f3->set('login', $login);
+		$f3->set('bloggerId', $login[bloggerId]);
 		
-		if(empty($login)){
-			$f3->reroute('login');
+		
+		// Check if the array is empty - if it's empty then it means login
+		// info wasn't found
+		if(!empty($login[username])){
+		
+			$_SESSION['bloggerId'] = $login['bloggerId'];
+			$_SESSION['bio'] = $login['bio'];
+			$_SESSION['portrait'] = $login['portrait'];
 		}
 		else{
-			
+			$f3->reroute('login');
 		}
 		
-		echo Template::instance()->render('pages/myblog.html');
+		
+		
+			echo Template::instance()->render('pages/home2.html');
+
+		
+		
 	});
+	
+	$f3->route('GET /createBlogs', function($f3) {
+		
+		echo Template::instance()->render('pages/createBlogs.html');
+
+	});
+	
+	$f3->route('POST /createBlogs2', function($f3){
+		$_SESSION['title'] = $_POST['title'];
+		$_SESSION['entry'] = $_POST['entry'];
+		$title = $_SESSION['title'];
+		$entry = $_SESSION['entry'];
+		$date = date("Y-m-d");
+		
+
+		$GLOBALS['blogDB']->addBlogPost($_SESSION['bloggerId'], $date, $title, $entry);
+
+		echo Template::instance()->render('pages/createBlogs2.php');
+	});
+	
+		$f3->route('GET /myBlogs', function($f3) {
+			
+			//Call the function to get all blogposts by that user with the bloggerId
+			$blogsArray = $GLOBALS['blogDB']->allBlogPosts();
+			
+			
+			$myBlogs = array();
+			foreach($blogsArray as $blogpost){
+				if($blogpost[bloggerId] == $_SESSION['bloggerId']){
+					$myBlogs[] = $blogpost;
+				}
+			}
+			
+			$f3->set('myBlogs', $myBlogs);
+			
+			$bio = $_SESSION['bio'];
+			$portrait = $_SESSION['portrait'];
+			$f3->set('bio', $bio);
+			$f3->set('portrait', $portrait);
+			$f3->set('username', $_SESSION['username']);
+			
+			
+			
+			
+		echo Template::instance()->render('pages/myBlogs.html');
+
+	});
+	
 	
 	 $f3->route('GET /registration', function($f3) {
 		echo Template::instance()->render('pages/registration.html');

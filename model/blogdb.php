@@ -66,6 +66,22 @@ class BlogDB{
         }
 
 
+        function addBlogPost($bloggerId, $date, $title, $entry)
+        {
+            $insert = 'INSERT INTO BlogPosts (bloggerId,date,title,entry) VALUES (:bloggerId, :date, :title, :entry)';
+            
+            $statement = $this->_pdo->prepare($insert);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_STR);
+            $statement->bindValue(':date', $date, PDO::PARAM_STR);
+            $statement->bindValue(':title', $title, PDO::PARAM_STR);
+            $statement->bindValue(':entry', $entry, PDO::PARAM_STR);
+
+            $statement->execute();
+            
+            //Return ID of inserted row
+            return $this->_pdo->lastInsertId();
+        }
+        
 /*
          * This function retrieves the most recent blog post per each blogger.
          */
@@ -156,7 +172,14 @@ class BlogDB{
             
         }
         
-        
+        function deleteBlog($bloggerId,$title)
+        {
+            $delete = "DELETE FROM BlogPosts WHERE bloggerId:bloggerId && title:title";
+            $statement = $this->_pdo->prepare($delete);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
+            $statement->bindValue(':title', $title, PDO::PARAM_INT);
+            $statement->execute();
+        }
       
 
         

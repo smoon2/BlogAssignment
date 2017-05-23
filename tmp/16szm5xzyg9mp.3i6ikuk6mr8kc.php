@@ -35,7 +35,7 @@
                     <h3> Please Log in Below</h3>
                 </div>
                </div>
-                 <form action="./myblog" id="login"  method="post" class="form-horizontal">
+                 <form action="./home2?bloggerId=<?= $login[bloggerId] ?>"  method="post" class="form-horizontal">
                 <div class="container">
                <div class="col-sm-9">
                 <br>
