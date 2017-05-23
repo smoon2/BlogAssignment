@@ -195,10 +195,9 @@ class BlogDB{
         
         function updateBlog($bloggerId, $title, $newTitle, $newEntry, $newDate)
         {
-            $update = 'UPDATE BlogPosts SET title=:newTitle, entry=:newEntry, date=:newDate WHERE bloggerId=:bloggerId && entry=:entry';
-            $statement = $this->_pdo->prepare($dupdate);
+            $update = 'UPDATE BlogPosts SET title=:newTitle, entry=:newEntry, date=:newDate WHERE bloggerId=:bloggerId && title=:title';
+            $statement = $this->_pdo->prepare($update);
             $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
-                $statement->bindValue('entry', $entry, PDO::PARAM_INT);
             $statement->bindValue(':title', $title, PDO::PARAM_INT);
             $statement->bindValue(':newTitle', $newTitle, PDO::PARAM_INT);
             $statement->bindValue(':newEntry', $newEntry, PDO::PARAM_INT);

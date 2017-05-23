@@ -44,12 +44,9 @@
                     <h2> Your account has been created successfully. </h2>
                     <div class="form-group">
                 <div class="col-sm-6">
-                  <a href=""><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Visit my Blog</button></a></div>
+                  <a href="login"><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Go Login! </button></a></div>
                 </div>
-                    <div class="form-group">
-                <div class="col-sm-6">
-                  <a href="createBlog"></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
-                </div>
+         
                     
                     
                 </div>

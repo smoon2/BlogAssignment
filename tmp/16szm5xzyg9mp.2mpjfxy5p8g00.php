@@ -48,7 +48,7 @@
                 </div>
                     <div class="form-group">
                 <div class="col-sm-6">
-                  <a href=""></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
+                  <a href="createBlog"></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
                 </div>
                     
                     
