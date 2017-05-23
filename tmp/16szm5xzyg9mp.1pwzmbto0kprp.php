@@ -6,7 +6,6 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-            
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
             <link href= "styles/style.css" rel="stylesheet" type="text/css">     
             <title>Blog</title>
@@ -45,53 +44,27 @@
                 </nav>
                 </div>
                
-             
-               
-                 
-               
-                <div class="col-md-4">
+                  <form action="./updateblogs2" id="updateBlogs2"  method="post" class="form-horizontal">
+                             <div class="col-md-4">
                 <div class="container-big">
-                    <br><h2>Your Blogs</h2>
-                <table class="table">
-             <thead>
-                        <tr>
-                            <th>Blog</th>
-                            <th>Update</th>
-                            <th>Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach (($myBlogs?:[]) as $blog): ?>
-                            <tr>
-                            <td><?= $blog[title] ?></td>
-                            <td><a href="updateBlogs?title=<?= $blog[title] ?>"><span class="glyphicon glyphicon-wrench"></span></a></td>
-                            <td><a href="deleteBlog?title=<?= $blog[title] ?>"><span class="glyphicon glyphicon-trash"></span></a></td>
-                            </tr>
-                        <?php endforeach; ?>
-            
-                    </tbody>
-                    </table>
+               <h2><br>Update Your Blog</h2><hr>
+                 <div class="input-group">
+                    <div class="input-group-addon">
+                      <span class="glyphicon glyphicon-pencil"></span></div>
+						<input type="text" class="form-control" value="<?= $oldTitle ?>" name="newTitle"></div><br>
+                 <div class="input-group">
+                    <div class="input-group-addon">
+                      <span class="glyphicon glyphicon-comment"></span></div>                  
+                    <textarea class="form-control" name="newEntry" id="newEntry" rows="5" ><?= $oldEntry ?></textarea>
+                  </div><br>
+                   <div class="form-group">
+                <div class="col-sm-12">
+                  <button id="contacts-submit" type="submit" class="btn btn-default btn-info">UPDATE</button></div><br>
                 </div>
-            
-               
-               
-
+                 
+                
+                 
                 </div>
-                       
-                       
-                       
-                                      <div class="col-md-5 pull-right">
-                   <div class="container-big">
-                    
-                        <div class="avatar-flip"><img src="<?= $portrait ?>" height="150" width="150"></div>
-                        <h2><?= $username ?> </h2><hr>
-                        <h2>Bio : <?= $bio ?> </h2>
-                   </div>
-                    </div>
-               
-            
-            
-            
-                             
+  </form>
         </body>
     </html>

@@ -190,17 +190,6 @@
 		$f3->set('id', $id);
 		
 		$display = $GLOBALS['blogDB']->bloggerById($id);
-		//print_r($display);
-
-		//foreach($display as $each){
-		//	$info = new Blogger($each[bloggerId], $each[username], $each[email], $each[password], $each[portrait], $each[bio]);
-		//	print_r($info);
-		//}
-		//
-		//foreach($display as $value){
-		//	$blogger = new Blogger($value[0], $value[1], $value[2], $value[3], $value[4], $value[5]);
-		//	print_r($blogger);
-		//}
 		
 		$f3->set('display', $display);
 		
@@ -249,7 +238,50 @@
 		
 	});
 	
-	  $f3->route('GET /viewPost', function($f3, $id) {
+	$f3->route('GET /updateBlogs', function($f3) {
+
+	
+	
+	
+			//Grabbing our current title 
+			$title = $_GET['title'];
+
+			
+			
+			$oldEntry = $GLOBALS['blogDB']->selectBlog($_SESSION['bloggerId'], $_GET['title']);
+			$f3->set('oldTitle', $title);
+			$f3->set('oldEntry', $oldEntry['entry']);
+			
+		echo Template::instance()->render('pages/updateBlogs.html');
+	});
+	
+	
+		$f3->route('POST /updateBlogs2', function($f3) {
+			print_r($_GET['newTitle']);
+			$_SESSION['newTitle'] = $_GET['newTitle'];
+			$_SESSION['newEntry'] = $_GET['newEntry'];
+			$newDate = date("Y-m-d");
+			print_r($_GET['newTitle']);
+			print_r($_SESION['newTitle']);
+			
+			$f3->set('newTitle', $_GET['newTitle']);
+			//$GLOBALS['blogDB']->updateBlog($_SESSION['bloggerId'], $_SESSION['oldTitle'], $_GET['newTitle'], $_GET['newEntry'], $newDate);
+		
+		echo Template::instance()->render('pages/updateBlogs2.php');
+	});
+	
+	
+	
+	$f3->route('GET /deleteBlog', function($f3) {
+			$title = $_GET['title'];
+		    $GLOBALS['blogDB']->deleteBlog($_SESSION['bloggerId'],$title);
+   
+		
+		echo Template::instance()->render('pages/deleteBlog.php');
+	});	
+	
+		
+	  $f3->route('GET /viewPost', function($f3) {
 		$id = $_GET['bloggerId'];
 		
 		$f3->set('id', $id);

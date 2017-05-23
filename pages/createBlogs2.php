@@ -15,16 +15,8 @@
         <body>
            
             <div class="container-fluid">
-               <!-- <div class="col-sm-3 sidenav">
-                    <h4>Blog Site</h4>
-                 
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Become a Blogger</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="">Hi</a></li>
-                    </ul><br>
-                </div>-->
+ 
+                </div>
                <!-- Sidebar/menu -->
                <div class="col-sm-3">
                 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
@@ -51,11 +43,11 @@
                     <h2> Your Blog has been created successfully. </h2>
                     <div class="form-group">
                 <div class="col-sm-6">
-                  <a href=""><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Visit my Blog</button></a></div>
+                  <a href="myBlogs"><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Visit my Blog</button></a></div>
                 </div>
                     <div class="form-group">
                 <div class="col-sm-6">
-                  <a href="createBlog"></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
+                  <a href="createBlogs"></a><button id="contacts-submit" type="submit" class="btn btn-default btn-info">Create a blog</button></a></div>
                 </div>
                     
                     

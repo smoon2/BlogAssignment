@@ -172,12 +172,37 @@ class BlogDB{
             
         }
         
+        function selectBlog($bloggerId, $title)
+        {
+            $select ='SELECT date, entry FROM BlogPosts WHERE bloggerId=:bloggerId && title=:title';
+                        $statement = $this->_pdo->prepare($select);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
+            $statement->bindValue(':title', $title, PDO::PARAM_INT);
+            $statement->execute();
+             
+            return $statement->fetch(PDO::FETCH_ASSOC);
+ 
+        }
+        
         function deleteBlog($bloggerId,$title)
         {
-            $delete = "DELETE FROM BlogPosts WHERE bloggerId:bloggerId && title:title";
+            $delete = "DELETE FROM BlogPosts WHERE bloggerId=:bloggerId && title=:title";
             $statement = $this->_pdo->prepare($delete);
             $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
             $statement->bindValue(':title', $title, PDO::PARAM_INT);
+            $statement->execute();
+        }
+        
+        function updateBlog($bloggerId, $title, $newTitle, $newEntry, $newDate)
+        {
+            $update = 'UPDATE BlogPosts SET title=:newTitle, entry=:newEntry, date=:newDate WHERE bloggerId=:bloggerId && entry=:entry';
+            $statement = $this->_pdo->prepare($dupdate);
+            $statement->bindValue(':bloggerId', $bloggerId, PDO::PARAM_INT);
+                $statement->bindValue('entry', $entry, PDO::PARAM_INT);
+            $statement->bindValue(':title', $title, PDO::PARAM_INT);
+            $statement->bindValue(':newTitle', $newTitle, PDO::PARAM_INT);
+            $statement->bindValue(':newEntry', $newEntry, PDO::PARAM_INT);
+            $statement->bindValue(':newDate', $newDate, PDO::PARAM_INT);
             $statement->execute();
         }
       

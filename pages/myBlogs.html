@@ -64,8 +64,8 @@
                         <repeat group="{{ @myBlogs }}" value=" {{ @blog }}">
                             <tr>
                             <td>{{ @blog[title] }}</td>
-                            <td><span class="glyphicon glyphicon-wrench"></span></td>
-                            <td><span class="glyphicon glyphicon-trash"></span></td>
+                            <td><a href="updateBlogs?title={{ @blog[title] }}"><span class="glyphicon glyphicon-wrench"></span></a></td>
+                            <td><a href="deleteBlog?title={{ @blog[title] }}"><span class="glyphicon glyphicon-trash"></span></a></td>
                             </tr>
                         </repeat>
             
