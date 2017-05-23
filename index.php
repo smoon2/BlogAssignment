@@ -24,14 +24,9 @@
             $blogsArray[] = $blogPostObject;
 			
         }
+		
     
-		//set blogsarray and bloggers array. store them as session variables for future use.
-        $f3->set('blogsArray', $blogsArray);
-		$_SESSION['blogsArray'] = $blogsArray;
-		
-		$f3->set('bloggersArray', $bloggersArray);
-		$_SESSION['bloggersArray'] = $bloggersArray;
-		
+	
 		
 		//Create an array to store all the bloggers info
 		$bloggersArray = array();
@@ -44,6 +39,14 @@
 			$bloggerObject = new Blogger($blogger[bloggerId], $blogger[username], $blogger[email], $blogger[password], $blogger[portrait], $blogger[bio]);
 			$bloggersArray[] = $bloggerObject;
 		}
+		
+			//set blogsarray and bloggers array. store them as session variables for future use.
+        $f3->set('blogsArray', $blogsArray);
+		$_SESSION['blogsArray'] = $blogsArray;
+		
+		$f3->set('bloggersArray', $bloggersArray);
+		$_SESSION['bloggersArray'] = $bloggersArray;
+		
         
         //load a template
         echo Template::instance()->render('pages/home.html');

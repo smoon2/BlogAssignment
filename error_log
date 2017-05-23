@@ -1873,3 +1873,21 @@
 [23-May-2017 09:54:50 America/Chicago] PHP Fatal error:  Call to a member function getPortrait() on a non-object in /home/smoon/public_html/328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php on line 47
 [23-May-2017 09:54:50 America/Chicago] Fatal error: Call to a member function getPortrait() on a non-object
 [23-May-2017 09:54:50 America/Chicago] [328/BlogAssignment/tmp/16szm5xzyg9mp.8wg2lyi2xa43.php:47] 
+[23-May-2017 10:15:10 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[23-May-2017 10:15:10 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:10 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
+[23-May-2017 10:15:11 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[23-May-2017 10:15:11 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:11 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
+[23-May-2017 10:15:33 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[23-May-2017 10:15:33 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:33 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
+[23-May-2017 10:15:33 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[23-May-2017 10:15:33 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:33 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
+[23-May-2017 10:15:41 America/Chicago] HTTP 404 (GET /BRZ_PUR_3.jpg)
+[23-May-2017 10:15:41 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:41 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
+[23-May-2017 10:15:41 America/Chicago] HTTP 404 (GET /18260903_10158709228040360_815200105_o.jpg)
+[23-May-2017 10:15:41 America/Chicago] [328/BlogAssignment/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 10:15:41 America/Chicago] [328/BlogAssignment/index.php:329] Base->run()
