@@ -38,7 +38,7 @@
                 
                 
                <!-- <div class="container">-->
-              <form action="./registration2" id="registration"  method="post" class="form-horizontal">
+              <form action="./validation" id="registration"  method="post" class="form-horizontal">
   
                 
                      <div class="col-md-2 control-group">
@@ -50,24 +50,27 @@
                <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-user"></span></div>
-						<input type="text" class="form-control" required placeholder="Enter your username" name="username"></div>
-              
+						<input type="text" class="form-control" required placeholder="Enter your username" name="username" value="<?= $username ?>"></div>
+						<span class="error">* <?= $usernameVal ?></span>
                <br>
            
                 <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-envelope"></span></div>
-						<input type="text" class="form-control" required placeholder="Enter your email" name="email"></div>
+						<input type="text" class="form-control" required placeholder="Enter your email" name="email" value = "<?= $email ?>"></div>
+				<span class="error">* <?= $emailVal ?></span>
               <br><hr>
                <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-lock"></span></div>
 						<input type="password" class="form-control" required placeholder="Enter your password" name="password"></div>
+						<span class="error">* <?= $matchVal ?> <?= $charVal ?></span>
                <br>
                 <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-lock"></span></div>
 						<input type="password" class="form-control" required placeholder="Verif: enter your password again" name="password2"></div>
+				<span class="error">* <?= $symbolVal ?> <?= $numberVal ?></span>
                <br>
                
                 
@@ -91,7 +94,7 @@
                   <div class="input-group">
                     <div class="input-group-addon">
                       <span class="glyphicon glyphicon-comment"></span></div>                  
-                    <textarea class="form-control" name="bio" id="bio" rows="5" style="width:99.9%" placeholder="Enter your bio here"></textarea>
+                    <textarea class="form-control" name="bio" id="bio" rows="5" style="width:99.9%" placeholder="Enter your bio here"><?= $bio ?></textarea>
                   </div>                                    
                 </div>
                       </div><!-- -->

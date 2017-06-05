@@ -174,28 +174,137 @@
 			echo Template::instance()->render('pages/myBlogs.html');
 
 	});
+
+	
+	
+	$f3->route('POST /validation', function($f3) {
+			   
+        $errors = array();
+        
+        //validating email 
+       $email = $_POST["email"];
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors['email'] = "Invalid email format"; 
+}
+    
+        //checking if passwords match 
+        if($_POST['password'] != $_POST['password2']){
+            $errors['match'] = "Passwords don't match";
+        }
+        
+    
+    
+    $password = $_POST['password'];
+    echo $password;
+     if (strlen($password) < '6') {
+        $errors['6char'] = "Your Password Must Contain At Least 6 Characters!";
+    }
+    if(!preg_match("#[0-9]+#",$password)) {
+        $errors['number'] = "Your Password Must Contain At Least 1 Number!"; 
+    }
+    if(!preg_match("/[\'^£$%&*()}{@#~?<>,|=_+!-]/", $password)){
+        $errors['symbol'] = "Your Password Must Contain At Least One Symbol!";
+    }
+
+	
+	//Validating that username isn't in use 
+	$username = $_POST['username'];
+	$validate = $GLOBALS['blogDB']->usernameInUse($username);
+	echo $validate['username'];
+	if(!empty($validate['username'])){
+		$errors['usernameVal'] = "This username is already in use.";
+		
+	}
+	else{
+		
+		
+	}
+	$_SESSION['confirmedPassword'] = $_POST['password'];
+			$_SESSION['username'] = $_POST['username'];
+		$_SESSION['email'] = $_POST['email'];
+		
+		$_SESSION['bio'] = $_POST['bio'];
+		$_SESSION['portrait'] = $_POST['portrait'];
+	//If there's errors then reroute back to form with error messages
+    	if (sizeof($errors) > 0) {
+                        //echo '<h3>Error!</h3><p>Please fix the following errors:</p>';
+                        //
+                        //echo '<ul>';
+                        //foreach ($errors as $error) {
+                        //    echo "<li>$error</li>";
+                        //
+                        //}
+						$_SESSION['emailVal'] = $errors['email'];
+						
+						$_SESSION['numberVal'] = $errors['number'];
+						$_SESSION['symbolVal'] = $errors['symbol'];
+						$_SESSION['usernameVal'] = $errors['usernameVal'];
+						$_SESSION['6char'] = $errors['6char'];
+						echo $_SESSION['usernameVal'];
+						$_SESSION['matchVal'] = $errors['match'];
+						$rerouteCount = 1;
+						$_SESSION['rerouteCount'] = $rerouteCount;
+						
+						
+						//Sticky form
+						
+						$f3->reroute('registration');
+		} else {
+			//send it to registration2 
+			
+		
+			$f3->reroute('registration2');
+		}
+		echo Template::instance()->render('pages/validation.php');
+		
+	});
+	
+	
 	
 	//this routes to registration page
 	 $f3->route('GET /registration', function($f3) {
+		
+		if($_SESSION['rerouteCount'] == 1){
+			$f3->set('usernameVal', $_SESSION['usernameVal']);
+			$f3->set('charVal', $_SESSIION['6char']);
+			$f3->set('symbolVal', $_SESSION['symbolVal']);
+			$f3->set('emailVal', $_SESSION['emailVal']);
+			
+			$f3->set('numberVal', $_SESSION['numberVal']);
+			$f3->set('matchVal', $_SESSION['matchVal']);	
+		
+		}
+		
+		$f3->set('username', $_SESSION['username']);
+		$f3->set('email', $_SESSION['email']);
+		$f3->set('bio', $_SESSION['bio']);
+		
 		echo Template::instance()->render('pages/registration.html');
+		unset($_SESSION['usernameVal']);
+		unset($_SESSION['6char']);
+		unset($_SESSION['symbolVal']);
+		unset($_SESSION['emailVal']);
+		
+		unset($_SESSION['numberVal']);
+		unset($_SESSION['matchVal']);
+		
+		unset($_SESSION['username']);
+		unset($_SESSION['email']);
+		unset($_SESSION['bio']);
 	});
 	 
 	 //this handles the registration 
-	  $f3->route('POST /registration2', function($f3) {
+	  $f3->route('GET /registration2', function($f3) {
 		
 		//store all the info and instantiate a new blogger object 
-		$_SESSION['username'] = $_POST['username'];
-		$_SESSION['email'] = $_POST['email'];
-		if($_POST['password'] == $_POST['password2']){
-			$_SESSION['password'] = $_POST['password'];
-		}
-		$_SESSION['bio'] = $_POST['bio'];
-		$_SESSION['portrait'] = $_POST['portrait'];
+		
 		
 		 $username = $_SESSION['username'];
          $email = $_SESSION['email'];
-         $password = $_SESSION['password'];
+         $password = $_SESSION['confirmedPassword'];
          $bio = $_SESSION['bio'];
+		 //strip out tags from bio
+		 $bio = strip_tags($bio);
 		 $portrait = $_SESSION['portrait'];
 
 		$newBlogger = new Blogger("", $username, $email, $password, $portrait, $bio);

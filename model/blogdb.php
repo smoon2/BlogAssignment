@@ -205,6 +205,21 @@ class BlogDB{
             $statement->execute();
         }
       
+      
+      
+              /**
+         * This validates if the username is already in use. 
+         */
+        function usernameInUse($username)
+        {
+            $select = 'SELECT bloggerId, username, email, portrait, bio FROM Bloggers WHERE username=:username';
+    
+            $statement = $this->_pdo->prepare($select);
+            $statement->bindValue(':username', $username, PDO::PARAM_INT);
+            $statement->execute();
+             
+            return $statement->fetch(PDO::FETCH_ASSOC);
+        }
 
         
         
